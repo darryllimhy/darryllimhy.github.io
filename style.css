@@ -6,7 +6,8 @@ html{
     max-width: 960px;
     min-height: 100%;
     margin: auto;
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1)
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
 }
 .mypic{
     float:left;
@@ -20,8 +21,7 @@ html{
     padding-top: 5px;
     clear:both;
 }
-h1,p,div{
-    font-family: Arial, Helvetica, sans-serif;
+p,div{
     font-size: 18px;
 }
 h1{
