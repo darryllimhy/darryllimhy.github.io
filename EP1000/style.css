@@ -1,0 +1,58 @@
+html{
+    padding:1%;
+    max-width: 960px;
+    min-height: 100%;
+    margin: auto;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+.mypic{
+    float:left;
+    padding-right: 20px;
+}
+.info{
+    clear: right;
+    padding: 60px 0 60px 0;
+}
+.interests{
+    padding-top: 5px;
+    clear:both;
+}
+h1{
+    font-size: 64px;
+}
+h2{
+    text-decoration: underline;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+    position:absolute;
+    left:0;
+    top:0
+}
+  
+ul.nav li {
+    float: left;
+  }
+  
+ul.nav li a {
+    line-height: 1em;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 40px;
+    display: block;
+    text-align: left;
+}
+  
+ul.nav li a:hover,ul.nav li a.active {
+    background-color: rgb(74, 214, 242);
+    color: white;
+}
+
