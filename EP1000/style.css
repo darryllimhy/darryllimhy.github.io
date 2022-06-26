@@ -23,6 +23,9 @@ html{
 h1{
     font-size: 64px;
 }
+.subheader{
+    font-size: 48px;
+}
 h2{
     text-decoration: underline;
 }
