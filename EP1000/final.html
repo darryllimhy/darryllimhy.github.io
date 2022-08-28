@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>My Project Website!</title>
+    </head>
+    <body>
+        <h1>My Projects</h1>
+        <div>
+            <nav>
+                <ul class="nav">
+                    <li>
+                        <a href="index.html">Index</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Project</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html">About Me</a>
+                    </li>
+                    <li>
+                        <a class="active" href="final.html">Final Project</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h2 class="subheader">Arduino Calculator</h2>
+            <p>
+                <h2>Concept Sketch</h2>
+                <img src="images/Sketch.png" width=600px>
+                <br>
+                It being a Calculator I wanted it to be small enough such that it can be portable and be held easily. However. taking into account that the jumper wires take up quite a fair bit of space, I had to make it slightly bulkier.
+                <br>
+                <h2>Bill-Of-Materials</h2>
+                <img src="images/BOM.png" width=600px>
+                <h2>3D Model</h2>
+                <img src="images/Calc3DModel.png" width=600px>
+                <br>
+                I measured the size of the Arduino and LCD and designed the 3D model similar to my concept sketch and to fit the Arduino and LCD screen.
+                <br>
+                <h2>Cardboard Prototype</h2>
+                <img src="images/Prototype.png" width=600px>
+                <br>
+                I wanted to make sure everything fits so I made a Cardboard prototype to see how my Arduino and LCD screen fits. After testing, I made some adjustments to my 3D model to give more room for wires in the calculator head.
+                <br>
+                <h2>Laser Cutting and 3D Printing</h2>
+                <img src="images/CalcLaserCut.png" width = 600px>
+                <img src="images/Calculator3DPrint.png" width=300px>
+                <br>
+                I used the bodies from my 3D model to get the .dxf files to laser cut and make .stl for 3D printing slicing. I then glued all the components together aside from the top acrylic layer as I want the components to be accessible.
+                <br>
+                <h2>Testing the Circuit</h2>
+                <img src="images/Test.png" width = 600px>
+                <br>
+                Before I put everything together, I tested out my components to see if everything works.
+                <br>
+                <h2>Final Product</h2>
+                <img src="images/Final.png" width = 600px>
+                <br>
+                You may notice that the numpad and LCD screen is upside down. The reason for that is that I did not take into account the horizontal length the I2C module at the back of the LCD takes up so I had to flip it. As a result, I had to flip everything else.
+                <br>
+                <h2>Video Presentation</h2>
+                <iframe width="600" height="400"
+                src="">
+                </iframe>
+            </p>
+        </div>
+    </body>
+</html>
